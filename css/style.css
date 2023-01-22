@@ -9,15 +9,16 @@
 }
 
 body {
-  margin: 20px 565px;
+  margin: 20px 535px;
   padding: 20px 15px;
   display: flex;
+  font-family: 'Courier New', Courier, monospace
 }
 
 .background {
   width: auto;
   height: auto;
-  background-image: url("https://s1.1zoom.me/b6055/886/Fish_Food_Apples_Orange_fruit_Nuts_Wood_planks_521743_1920x1080.jpg");
+  background-image: url("https://os1.i.ua/1/28/570651.jpg");
 }
 
 .page {
@@ -25,12 +26,7 @@ body {
   padding: 20px 15px;
   display: flex;
 }
-
-.counter {
-  padding: 5px 15px;
-  border: 1px solid black;
-}
-
+  
 .person-data {
   display: flex;
   border: none;
@@ -39,18 +35,20 @@ body {
 }
 
 .box {
-  width: 30%;
+  width: 40%;
+  
 }
 
 .parameters {
   margin-bottom: 5px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
+  
 }
 
 .item {
   color: gray;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .window {
@@ -63,9 +61,11 @@ body {
 }
 
 .counter {
+  color: white;
   padding: 5px 15px;
   border-radius: 15px;
-  background-color: white;
+  background-image: url("https://www.fonstola.ru/images/201111/fonstola.ru_53825.jpg");
+  border: 3px solid black;
 }
 
 .activity {
@@ -75,10 +75,11 @@ body {
 }
 
 h1 {
-  font-size: 40px;
-  font-family: pt-sans-caption-bold, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 p {
@@ -91,13 +92,15 @@ p {
 }
 
 .submit {
-  width: 150px;
-  height: 35px;
-  color: white;
-  background-color: #C0C0C0;
-  font-size: 16px;
+width: 50%;
+height: 35px;
+color: black;
+background-color: #C0C0C0;
+font-size: 16px;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace
 }
 
 .calculation {
-  display: none;
+display: none;
 }
